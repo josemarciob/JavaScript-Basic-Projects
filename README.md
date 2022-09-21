@@ -3,7 +3,10 @@
 <br>
 
 > Project Color Flipper
-[🔗 Clique aqui para acessar](https://https://josemarcio-color-flipper.netlify.app/)
+
+<br>
+
+[🔗 Clique aqui para acessar](https://josemarcio-color-flipper.netlify.app)
 
 <br>
 
