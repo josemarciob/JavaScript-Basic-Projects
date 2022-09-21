@@ -3,9 +3,6 @@
 <br>
 
 > Project Color Flipper
-
-<br>
-
 [🔗 Clique aqui para acessar](https://josemarcio-color-flipper.netlify.app)
 
 <br>
