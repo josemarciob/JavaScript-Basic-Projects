@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: hsl(0, 0%, 90%);
+  color: rgb(60, 60, 60);
+}
+
+/* MAIN */
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.underline {
+  height: 0.25rem;
+  width: 8.5rem;
+  background: linear-gradient(to right,rgb(162, 0, 255), rgb(25, 250, 70));
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4px;
+}
+.container {
+  width: 80vw;
+  max-width: 680px;
+}
+.review {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  text-align: center;
+}
+.review:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.img-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+#person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.img-container::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10e";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background: linear-gradient(110deg,rgb(162, 0, 255), rgb(25, 250, 70));
+  color: #fff;
+}
+.img-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(150deg,rgb(162, 0, 255), rgb(25, 250, 70));
+  position: absolute;
+  top: -0.25rem;
+  right: -0.5rem;
+  border-radius: 50%;
+}
+#author {
+  margin-bottom: 0.25rem;
+}
+#job {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: hsl(281, 78%, 60%);
+  font-size: 1rem;
+  font-weight: bold;
+}
+#info {
+  margin-bottom: 0.75rem;
+}
+.prev-btn,
+.next-btn {
+  color: hsl(281, 78%, 60%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 1rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: hsl(205, 78%, 60%);
+  transform: scale(1.4);
+}
+.prev-btn:active,
+.next-btn:active {
+  transform: scale(0.5);
+}
+.random-btn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  background: hsl(205, 100%, 96%);
+  color: hsl(251, 78%, 60%);
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: 0.25rem;
+  transition: all 0.3s linear;
+  border-color: hsl(205, 78%, 60%);
+  cursor: pointer;
+}
+.random-btn:hover {
+  background: linear-gradient(to right,rgb(162, 0, 255), rgb(25, 250, 70));
+  color: hsl(0, 0%, 89%);
+  transform: scale(1.1);
+}
+.random-btn:active{
+  transform: scale(0.8);
+}
+
