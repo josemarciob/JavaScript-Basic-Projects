@@ -1,0 +1,38 @@
+<!-- 
+  By: José Marcio
+  GitHub: www.github.com/josemarciob
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- PRELOADER -->
+    <div class="preloader">
+      <img src="./preloader.gif" alt="preloader" />
+    </div>
+    <!-- HEADER -->
+    <header>
+      <video class="video-container" muted autoplay loop>
+        <source src="./video.mp4" type="video/mp4" />
+      </video>
+      <h1>Video</h1>
+      <!-- VIDEO SWITCH -->
+      <button class="switch-btn">
+        <span> play </span>
+        <span> pause </span>
+        <span class="switch"> </span>
+      </button>
+    </header>
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+  </body>
+</html>

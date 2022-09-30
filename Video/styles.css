@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: hsl(0, 0%, 90%);
+  color: rgb(60, 60, 60);
+}
+
+/*
+=============== 
+Video
+===============
+*/
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #222;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  z-index: 999;
+  transition: all 0.3s linear;
+}
+.hide-preloader {
+  z-index: -999;
+  visibility: hidden;
+}
+
+header {
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+h1 {
+  color: #fff;
+  font-size: 3.75rem;
+  font-weight: bold;
+}
+/* switch button */
+
+.switch-btn {
+  position: absolute;
+  bottom: 7%;
+  left: 7%;
+  width: 7rem;
+  height: 2rem;
+  display: flex;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  transition: all 0.3s linear;
+}
+.switch-btn:hover {
+  transform: scale(1.2);
+  bottom: 8%;
+  border-radius: 1rem;
+}
+.switch-btn span {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: #8c01dd;
+  transition: all 0.3s linear;
+}
+.switch-btn span:hover {
+  transform: scale(1.1);
+  bottom: 8%;
+  border-radius: 1rem;
+}
+.switch {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #8c01dd;
+  border-radius: 0.5rem;
+  margin: 0;
+  display: block;
+  transition: all 0.3s linear;
+}
+.slide .switch {
+  left: 50%;
+}
+/* header after */
+header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
