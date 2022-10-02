@@ -14,7 +14,8 @@
 > [🔗 Clique aqui para acessar](https://josemarcio-questions.netlify.app) <br>✔️ Menu ..
 > [🔗 Clique aqui para acessar](https://josemarcio-menu.netlify.app) <br>✔️ Video ..
 > [🔗 Clique aqui para acessar](https://josemarcio-video.netlify.app) <br>✔️ Scroll ..
-> [🔗 Clique aqui para acessar](https://josemarcio-scroll.netlify.app)
+> [🔗 Clique aqui para acessar](https://josemarcio-scroll.netlify.app) <br>✔️ Tabs ..
+> [🔗 Clique aqui para acessar](https://josemarcio-tabs.netlify.app)
 
 <br>
 
