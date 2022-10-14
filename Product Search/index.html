@@ -1,0 +1,106 @@
+<!-- 
+  By: José Marcio
+  GitHub: www.github.com/josemarciob
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONT-AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Product Search</title>
+  </head>
+  <body>
+    <section class="container">
+      <form>
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          name=""
+          id="search-item"
+          placeholder="Search Products"
+          onkeyup="search()"
+        />
+      </form>
+
+      <div class="product-list" id="product-list">
+        <div class="product">
+          <img src="./imgs/item-1.jpeg" alt="" />
+          <div class="p-details">
+            <h2>Buttermilk Pancakes</h2>
+            <h3>$15.99</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./imgs/item-2.jpeg" alt="" />
+          <div class="p-details">
+            <h2>Diner Double</h2>
+            <h3>$15.99</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./imgs/item-3.jpeg" alt="" />
+          <div class="p-details">
+            <h2>Godzilla Milkshake</h2>
+            <h3>$15.99</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./imgs/item-4.jpeg" alt="" />
+          <div class="p-details">
+            <h2>Country Delight</h2>
+            <h3>$15.99</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./imgs/item-5.jpeg" alt="" />
+          <div class="p-details">
+            <h2>Egg Attack</h2>
+            <h3>$15.99</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./imgs/item-6.jpeg" alt="" />
+          <div class="p-details">
+            <h2>Oreo Dream</h2>
+            <h3>$15.99</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./imgs/item-7.jpeg" alt="" />
+          <div class="p-details">
+            <h2>Bacon Overflow</h2>
+            <h3>$15.99</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./imgs/item-8.jpeg" alt="" />
+          <div class="p-details">
+            <h2>American Classic</h2>
+            <h3>$15.99</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./imgs/item-9.jpeg" alt="" />
+          <div class="p-details">
+            <h2>quarantine Buddy</h2>
+            <h3>$15.99</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JAVASCRIPT -->
+    <script src="./app.js"></script>
+  </body>
+</html>
