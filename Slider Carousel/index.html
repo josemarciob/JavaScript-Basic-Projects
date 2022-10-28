@@ -1,0 +1,72 @@
+<!-- 
+  By: José Marcio
+  GitHub: www.github.com/josemarciob
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Slider Carousel</title>
+  </head>
+  <body>
+    <h1>Slider <span>Carousel</span></h1>
+
+    <!-- CONTAINER GALLERY -->
+    <div class="container">
+      <!-- ARROWS BUTTONS -->
+      <button class="arrow-left control" aria-label="Previous Image">🢀</button>
+      <button class="arrow-right control" aria-label="Next Image">🢂</button>
+
+      <!-- GALLERY WRAPPER -->
+      <div class="gallery-wrapper">
+        <!-- GALLERY -->
+        <div class="gallery">
+          <!-- GALLERY IMGS -->
+          <img
+            src="https://source.unsplash.com/random/250x250/?beach"
+            alt="Beach Images"
+            class="item current-item"
+          />
+          <img
+            src="https://source.unsplash.com/random/250x250/?animal"
+            alt="Animal Images"
+            class="item"
+          />
+          <img
+            src="https://source.unsplash.com/random/250x250/?street"
+            alt="Street Images"
+            class="item"
+          />
+          <img
+            src="https://source.unsplash.com/random/250x250/?day"
+            alt="Day Images"
+            class="item"
+          />
+          <img
+            src="https://source.unsplash.com/random/250x250/?night"
+            alt="Night Images"
+            class="item"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+  </body>
+</html>
