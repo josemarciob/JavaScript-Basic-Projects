@@ -16,7 +16,8 @@
 > [🔗 Clique aqui para acessar 🔗](https://josemarcio-video.netlify.app) <br>✔️ Scroll ..
 > [🔗 Clique aqui para acessar 🔗](https://josemarcio-scroll.netlify.app) <br>✔️ Tabs ..
 > [🔗 Clique aqui para acessar 🔗](https://josemarcio-tabs.netlify.app) <br>✔️ Product Search ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-product-search.netlify.app)
+> [🔗 Clique aqui para acessar 🔗](https://josemarcio-product-search.netlify.app) <br>✔️ Slider Carousel ..
+> [🔗 Clique aqui para acessar 🔗](https://josemarcio-slider-carousel.netlify.app)
 
 <br>
 
