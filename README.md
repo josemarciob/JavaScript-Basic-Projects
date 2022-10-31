@@ -2,25 +2,58 @@
 
 <br>
 
-## 💻 Project List
+# 💻 Project List
 
-> ✔️ Color Flipper ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-color-flipper.netlify.app) <br>✔️ Counter ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-counter.netlify.app) <br>✔️ Reviews ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-reviews.netlify.app) <br>✔️ Navbar ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-navbar.netlify.app) <br>✔️ Sidebar ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-sidebar.netlify.app) <br>✔️ Modal ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-modal.netlify.app) <br>✔️ Questions ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-questions.netlify.app) <br>✔️ Menu ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-menu.netlify.app) <br>✔️ Video ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-video.netlify.app) <br>✔️ Scroll ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-scroll.netlify.app) <br>✔️ Tabs ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-tabs.netlify.app) <br>✔️ Product Search ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-product-search.netlify.app) <br>✔️ Slider Carousel ..
-> [🔗 Clique aqui para acessar 🔗](https://josemarcio-slider-carousel.netlify.app)
+## ✔️ Color Flipper:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-color-flipper.netlify.app)
+
+## ✔️ Counter:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-reviews.netlify.app)
+
+## ✔️ Navbar:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-navbar.netlify.app)
+
+## ✔️ Sidebar:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-sidebar.netlify.app)
+
+## ✔️ Modal:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-modal.netlify.app)
+
+## ✔️ Questions:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-questions.netlify.app)
+
+## ✔️ Menu:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-menu.netlify.app)
+
+## ✔️ Video:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-video.netlify.app)
+
+## ✔️ Scroll:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-scroll.netlify.app)
+
+## ✔️ Tabs:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-tabs.netlify.app)
+
+## ✔️ Product Search:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-product-search.netlify.app)
+
+## ✔️ Slider Carousel:
+
+> ### [🔗 Clique aqui para acessar 🔗](https://josemarcio-slider-carousel.netlify.app)
 
 <br>
 
-## 💛 Contato
+# 💛 Contato
 
-> 📧 josemarciob.contato@gmail.com
+> ## 📧 josemarciob.contato@gmail.com
